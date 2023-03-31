@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 20px;
+  width: 50%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  background-color: #c7d2fe;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  color: #7c3aed;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+.name1 {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.amount {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #d4d2db;
+}
+
+.rupees {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.sum {
+  color: #585076;
+  font-size: 20px;
+  font-weight: #382f5a;
+  font-family: 'Roboto';
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
